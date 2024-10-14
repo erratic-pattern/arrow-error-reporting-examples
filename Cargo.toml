@@ -1,0 +1,11 @@
+[package]
+name = "arrow-error-reporting-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6.3"
+futures = "0.3.31"
+object_store = { version = "0.11.0", features = ["aws"] }
+tokio = { version = "1.40.0", features = ["full"] }
+url = "2.5.2"
